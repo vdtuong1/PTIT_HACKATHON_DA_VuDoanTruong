@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+  <div class="container">
+    <h1 style="display: flex;align-items: center;justify-content: center;">Danh sách công việc</h1>
+    <div class="input-area">
+      <input type="text" id="new-todo-input" placeholder="Nhập tên công việc">
+      <button id="add-todo-button">Thêm</button>
+    </div>
+    <p id="error">tên công việc không được để trống</p>
+    <ul id="todo-list">
+        <li class="todo-item1">
+          <input type="checkbox" class="todo-checkbox1">
+          <span class="todo-text1">Code</span>
+         <div class="btn1">
+             <span class="material-symbols-outlined">
+            delete
+            </span>
+            <span class="material-symbols-outlined">
+            edit
+            </span></div>
+        </li>
+        <li class="todo-item2">
+          <input type="checkbox" class="todo-checkbox2">
+          <span class="todo-text2">Quét Nhà</span>
+         <div class="btn2">
+             <span class="material-symbols-outlined">
+            delete
+            </span>
+            <span class="material-symbols-outlined">
+            edit
+            </span></div>
+        </li>
+        <li class="todo-item3">
+          <input type="checkbox" class="todo-checkbox3">
+          <span class="todo-text3">Giặt Quần Áo</span>
+         <div class="btn3">
+             <span class="material-symbols-outlined">
+            delete
+            </span>
+            <span class="material-symbols-outlined">
+            edit
+            </span></div>
+        </li>
+        <li class="todo-item4">
+          <input type="checkbox" class="todo-checkbox4">
+          <span class="todo-text4">Lau Nhà</span>
+         <div class="btn4">
+             <span class="material-symbols-outlined">
+            delete
+            </span>
+            <span class="material-symbols-outlined">
+            edit
+            </span></div>
+        </li>
+       
+      </ul>
+      <p class="complete">Công việc đã hoàn thành:0/4</p>
+    
+  </div>
+
+<script src="./index.js"></script>
+</body>
+</html>
